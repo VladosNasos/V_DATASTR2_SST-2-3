@@ -1,0 +1,191 @@
+﻿{
+  "RootDepartment": {
+    "Name": "TechCorp",
+    "ManagerName": "Alice Johnson",
+    "Employees": [
+      {
+        "Name": "Alice Johnson"
+      }
+    ],
+    "SubDepartments": [
+      {
+        "Name": "Human Resources",
+        "ManagerName": "Bob Smith",
+        "Employees": [
+          {
+            "Name": "Bob Smith"
+          }
+        ],
+        "SubDepartments": [
+          {
+            "Name": "Recruitment",
+            "ManagerName": "Fiona Clark",
+            "Employees": [
+              {
+                "Name": "Fiona Clark"
+              }
+            ],
+            "SubDepartments": []
+          },
+          {
+            "Name": "Employee Relations",
+            "ManagerName": "George Miller",
+            "Employees": [
+              {
+                "Name": "George Miller"
+              }
+            ],
+            "SubDepartments": []
+          }
+        ]
+      },
+      {
+        "Name": "Information Technology",
+        "ManagerName": "Carol Williams",
+        "Employees": [
+          {
+            "Name": "Carol Williams"
+          }
+        ],
+        "SubDepartments": [
+          {
+            "Name": "Development",
+            "ManagerName": "Hannah Wilson",
+            "Employees": [
+              {
+                "Name": "Hannah Wilson"
+              }
+            ],
+            "SubDepartments": [
+              {
+                "Name": "Frontend Team",
+                "ManagerName": "Nina Martin",
+                "Employees": [
+                  {
+                    "Name": "Nina Martin"
+                  }
+                ],
+                "SubDepartments": [
+                  {
+                    "Name": "React Developers",
+                    "ManagerName": "Rachel Young",
+                    "Employees": [
+                      {
+                        "Name": "Rachel Young"
+                      }
+                    ],
+                    "SubDepartments": []
+                  }
+                ]
+              },
+              {
+                "Name": "Backend Team",
+                "ManagerName": "Oscar Lee",
+                "Employees": [
+                  {
+                    "Name": "Oscar Lee"
+                  }
+                ],
+                "SubDepartments": []
+              }
+            ]
+          },
+          {
+            "Name": "Support",
+            "ManagerName": "Ian Moore",
+            "Employees": [
+              {
+                "Name": "Ian Moore"
+              }
+            ],
+            "SubDepartments": [
+              {
+                "Name": "IT Support Team",
+                "ManagerName": "Paul Walker",
+                "Employees": [
+                  {
+                    "Name": "Paul Walker"
+                  }
+                ],
+                "SubDepartments": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Name": "Finance",
+        "ManagerName": "David Brown",
+        "Employees": [
+          {
+            "Name": "David Brown"
+          }
+        ],
+        "SubDepartments": [
+          {
+            "Name": "Accounts",
+            "ManagerName": "Jane Taylor",
+            "Employees": [
+              {
+                "Name": "Jane Taylor"
+              }
+            ],
+            "SubDepartments": [
+              {
+                "Name": "Payroll",
+                "ManagerName": "Quincy Hall",
+                "Employees": [
+                  {
+                    "Name": "Quincy Hall"
+                  }
+                ],
+                "SubDepartments": []
+              }
+            ]
+          },
+          {
+            "Name": "Auditing",
+            "ManagerName": "Kevin Anderson",
+            "Employees": [
+              {
+                "Name": "Kevin Anderson"
+              }
+            ],
+            "SubDepartments": []
+          }
+        ]
+      },
+      {
+        "Name": "Marketing",
+        "ManagerName": "Eva Davis",
+        "Employees": [
+          {
+            "Name": "Eva Davis"
+          }
+        ],
+        "SubDepartments": [
+          {
+            "Name": "Digital Marketing",
+            "ManagerName": "Laura Thomas",
+            "Employees": [
+              {
+                "Name": "Laura Thomas"
+              }
+            ],
+            "SubDepartments": []
+          },
+          {
+            "Name": "Content Marketing",
+            "ManagerName": "Mike Jackson",
+            "Employees": [
+              {
+                "Name": "Mike Jackson"
+              }
+            ],
+            "SubDepartments": []
+          }
+        ]
+      }
+    ]
+  }
+}

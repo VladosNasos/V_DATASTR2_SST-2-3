@@ -1,0 +1,20 @@
+﻿<Window x:Class="OrganizationApp.MoveDepartmentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Move Department" Height="400" Width="400" WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Content="Select New Parent Department:" Grid.Row="0" Margin="5"/>
+        <TreeView Name="TargetDeptTreeView" Grid.Row="1" Margin="5">
+            <!-- Departments will be populated dynamically -->
+        </TreeView>
+        <StackPanel Orientation="Horizontal" Grid.Row="2" HorizontalAlignment="Right" Margin="5">
+            <Button Content="OK" Width="80" Margin="5" Click="OK_Click"/>
+            <Button Content="Cancel" Width="80" Margin="5" Click="Cancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
